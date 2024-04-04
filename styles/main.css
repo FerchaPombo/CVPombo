@@ -11,3 +11,15 @@ a:hover {
     color :#b7b7b7 !important;
     text-decoration: none;
 }
+
+ul {list-style-type: none;}
+
+hr {
+    margin-top: 0px;
+    margin-top: 5%;
+}
+
+#MainMenu  {visibility: hidden;}
+footer {visibility: hidden;}
+header {visibility: hidden;}
+
