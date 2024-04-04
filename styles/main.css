@@ -1,3 +1,13 @@
 @import url('https://fonts.googleapis.com/css2?family=Mingzat&display=swap');
 
 * {font-family: 'Mingzat';}
+
+a {
+    text-decoration: none;
+    color: #E5B409 !important;
+    font-weight: 500;
+}
+a:hover {
+    color :#b7b7b7 !important;
+    text-decoration: none;
+}
