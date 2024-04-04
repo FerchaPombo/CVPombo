@@ -67,71 +67,111 @@ for index, (platform, link) in enumerate(SOCIAL_MEDIA.items()):
 
 # -- Experience & Qualifications --
 st.write('#')
+st.subheader('About me')
+st.write(
+    """
+    Background in art, event organization, and a new carreer in software
+development. Seeking a role thatallowing me to apply my growing passion for
+data analysis, machine learning, and AI. Eager to contribute creativity,
+adaptability, and problem-solving abilities to a dynamic team.
+"""
+)
+# -- Experience & Qualifications --
+st.write('#')
 st.subheader('Experience & Qualifications')
-st.write(
-    """
-    -✨
-    -✨
-    -✨
-    -✨
-    -✨
- """
 
-)
+# Create two columns
+col1, col2 = st.columns(2)
 
-# --- Skills --
+# Content for column 1
+with col1:
+    st.write("- ✨ Adaptability")
+    st.write("- ✨ Ability to Work Under Pressure")
+    st.write("- ✨ Detail Oriented")
+    st.write("- ✨ Ability to Multitask")
+    st.write("- ✨ Creative Problem Solving")
+
+# Content for column 2
+with col2:
+    st.write("- ✨ Communication Customer Service")
+    st.write("- ✨ Interpersonal Skills Teamwork")
+    st.write("- ✨ Management Skills Problem-Solving")
+    st.write("- ✨ Time Management")
+    st.write("- ✨ Problem-Solving")
+
+
+# --- Technical Skills --
 st.write('#')
-st.subheader('Hard Skills')
+st.subheader('Technical Skills')
+
+# Create two columns
+col1, col2, = st.columns(2)
+
+# Content for column 1
+
+with col1:
+    st.write('FrontEnd Development:')
+    st.write("- ✨ HTML Essentials")
+    st.write("- ✨ CSS Essentials")
+    st.write("- ✨ User Experience Design")
+    st.write("- ✨ Bootstrap")
+    st.write("- ✨ jQuery")
+
+# Content for column 2
+with col2:
+    st.write('Methodologies:')
+    st.write("- ✨ Design Thinking")
+    st.write("- ✨ Agile Development")
+    st.write("- ✨ Object-Oriented Programming")
+    st.write("- ✨ CRUD")
+    st.write("- ✨ CRISP-DM")
+
+st.write('#')
+
+col1, col2, = st.columns(2)
+
+with col1:
+    st.write('Frameworks and Libraries:')
+    st.write("- ✨ Flask")
+    st.write("- ✨ Django")
+    st.write("- ✨ NumPy")
+    st.write("- ✨ Pandas")
+    st.write("- ✨ Matplotlib")
+
+with col2:
+    st.write('#')
+    st.write("- ✨ Seaborn")
+    st.write("- ✨ Plotly")
+    st.write("- ✨ Scikit-learn")
+    st.write("- ✨ TensorFlow")
+
+st.subheader('Education')
 st.write(
     """
-    -
-    -
-    -
+    - 💻 Full Stack Software Development (Predictive Analytics), Predictive
+    Analytics: Code Institute-> 03/2023 - 03/2024.
+
+    - 📐 Bachelor of Architecture: UAM Universidad Autónoma Metropolitana-> 01/2008 - 02/2011
 """
 )
-st.subheader('Intesests')
+# -- Languages --
+st.write('#')
+st.subheader("Languages")
 st.write(
     """
-    -
-    -
-    -
-    -
+    - Spanish : Native
+    - English : Proficient
+    - Portuguese : Advanced
+    - German : Intermediate
+
 """
 )
-
-
-# --- Work History ---
-st.write('#')
-st.subheader("Work Experience")
 st.write("---")
 
-# --- Jobs --- 
+# --- Work History ---
 
 st.write('🖌️','Tattoo Artist and Illustrator | Self Employed')
 st.write('07/2010 - Present')
-st.write(
-    """
-    - Experiences learned here 
-    -
-    -
-    -
-    -
-    -
-"""
-)
-
-st.write('🖌️','Tattoo Artist and Illustrator | Self Employed')
-st.write('07/2010 - Present')
-st.write(
-    """
-    - Experiences learned here 
-    -
-    -
-    -
-    -
-    -
-"""
-)
 
 # --- Projects and Acomplishments -- 
 st.write('#')
