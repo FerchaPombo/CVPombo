@@ -70,9 +70,9 @@ st.write('#')
 st.subheader('About me')
 st.write(
     """
-    Background in art, event organization, and a new carreer in software
-development. Seeking a role thatallowing me to apply my growing passion for
-data analysis, machine learning, and AI. Eager to contribute creativity,
+    Background in art, event organization, and a new career in software
+development. Seeking a role that allows me to apply my growing passion for
+data analysis, machine learning, and AI. Eager to contribute with my creativity,
 adaptability, and problem-solving abilities to a dynamic team.
 """
 )
@@ -88,7 +88,7 @@ with col1:
     st.write("- ✨ Adaptability")
     st.write("- ✨ Ability to Work Under Pressure")
     st.write("- ✨ Detail Oriented")
-    st.write("- ✨ Ability to Multitask")
+    st.write("- ✨ Multitasking Ability")
     st.write("- ✨ Creative Problem Solving")
 
 # Content for column 2
