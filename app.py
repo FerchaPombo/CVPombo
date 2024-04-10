@@ -70,10 +70,21 @@ st.write('#')
 st.subheader('About me')
 st.write(
     """
-    Background in art, event organization, and a new career in software
-development. Seeking a role that allows me to apply my growing passion for
-data analysis, machine learning, and AI. Eager to contribute with my creativity,
-adaptability, and problem-solving abilities to a dynamic team.
+    Dear Reader,
+
+    I am writing to express my keen interest in opportunities within the realm of predictive analytics, machine learning, and artificial intelligence. Having recently completed a comprehensive program in full-stack software development with a specialization in predictive analytics and AI from Code Institute, coupled with my extensive background as a tattoo artist and freelancer, I am eager to bring a unique blend of creativity, adaptability, and technical skills to a new team.
+    
+    While my journey began in the creative world of tattooing, where I cultivated a deep appreciation for artistic expression and client satisfaction, my thirst for knowledge and passion for innovation led me to pursue formal education in the field of technology. Throughout my studies, I have developed proficiency in various programming languages, including front and backend development, and gained a solid understanding of predictive analytics and AI principles.
+    
+    Despite not having traditional work experience in this domain, my years of traveling the world and managing my own business have endowed me with invaluable skills in communication, adaptability, and problem-solving—qualities that I believe are essential for success in any professional environment. I am adept at collaborating with diverse teams, quickly learning new concepts, and thriving in dynamic settings.
+    
+    I am particularly drawn to my commitment to push the boundaries of innovation and leveraging data-driven insights to drive meaningful impact. 
+    
+    Find my resume and the skillset I acquired for your review below, which includes a link to some of my projects. I am excited about the opportunity to discuss how my unique background and skill set align with the needs of any team. Thank you for considering my application. I look forward to the possibility of contributing to your company's success.
+    
+    Warm regards,
+    
+    Fernanda Pombo
 """
 )
 # -- Experience & Qualifications --
