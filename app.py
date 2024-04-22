@@ -70,7 +70,6 @@ st.write('#')
 st.subheader('About me')
 st.write(
     """
-    Dear Reader,
 
     I am writing to express my keen interest in opportunities within the realm of predictive analytics, machine learning, and artificial intelligence. Having recently completed a comprehensive program in full-stack software development with a specialization in predictive analytics and AI from Code Institute, coupled with my extensive background as a tattoo artist and freelancer, I am eager to bring a unique blend of creativity, adaptability, and technical skills to a new team.
     
@@ -156,6 +155,7 @@ with col2:
     st.write("- ✨ Scikit-learn")
     st.write("- ✨ TensorFlow")
 
+st.write('---')
 st.subheader('Education')
 
 st.write('💻', 'Full Stack Software Development (Specialisation on Predictive Analytics and AI) : Code Institute-> 03/2023 - 03/2024.')
@@ -167,6 +167,7 @@ st.write('💾',' Course|University of California, Davis: Big Data, Artificial I
 
 # -- Languages --
 st.write('#')
+st.write('---')
 st.subheader("Languages")
 st.write(
     """
@@ -208,8 +209,8 @@ st.write(
 
 # --- Projects and Acomplishments -- 
 st.write('#')
-st.subheader('Acompllishments')
 st.write('---')
+st.subheader('Acompllishments')
 
 st.write('🦄','Unicorns in Tech Hackathon [UIT](https://www.unicornsintech.com/uithack24/), Berlin: April 12-13, 2024')
 st.write(
@@ -221,8 +222,9 @@ This experience strengthened my teamwork, problem-solving, and adaptability skil
 """
 )
 st.write('#')
-st.subheader('Projects')
 st.write('---')
+st.subheader('Projects')
+
 st.write('The following projects were completed as part of my full-stack software development program at Code Institute. Each project adhered to specific guidelines and was designed to demonstrate particular skills, providing an opportunity to apply theoretical knowledge in practical scenarios.')
 for project, link in PROJECTS.items():
     st.write(f"[{project}]({link})")
