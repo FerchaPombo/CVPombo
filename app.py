@@ -27,9 +27,34 @@ SOCIAL_MEDIA = {
     'Instagram': 'www.instagram.com/ferchapombo',
 }
 PROJECTS = {
-    '🌱 Mildew Detection in Cherry Leaves - ML model that predicts weather a cherry leaf is fungal-infected or not with Powdery Mildew': 'https://powdery-mildew-detector-fp-c8dd417a4db2.herokuapp.com/',
-    '🇲🇽 MexicoisMagic - Python trivia quiz game about Mexicos magical facts': 'https://magicmexico-92655f369bba.herokuapp.com/',
-    '🤜 Paper, Rock , Scissors - JavaScript game to play against the computer':'https://github.com/FerchaPombo/paper-rock-scissors',
+    '🌱 Mildew Detection in Cherry Leaves': {
+        'link': 'https://powdery-mildew-detector-fp-c8dd417a4db2.herokuapp.com/',
+        'description': (
+            "Developed a machine learning model to predict if a cherry tree is infected with Powdery Mildew by analyzing an image of a leaf. "
+            "The model uses binary classification to determine the presence or absence of fungal infection, providing insights that can inform "
+            "business decisions in agriculture."
+        ),
+        'technologies': "Python, TensorFlow, Matplotlib, Seaborn, Kaggle, Jupyter Notebooks",
+        'skills': "Machine learning, Python programming, data visualization, data analysis"
+    },
+    '🇲🇽 MexicoisMagic': {
+        'link': 'https://magicmexico-92655f369bba.herokuapp.com/',
+        'description': (
+            "A Python-based trivia quiz game about Mexico's magical facts. The project showcases skills in Python programming, "
+            "user interface design, and data management."
+        ),
+        'technologies': "Python",
+        'skills': "Python programming, UI design, data management"
+    },
+    '🤜 Paper, Rock, Scissors': {
+        'link': 'https://github.com/FerchaPombo/paper-rock-scissors',
+        'description': (
+            "A JavaScript game where players compete against a computer in a classic game of rock-paper-scissors. The project demonstrates "
+            "JavaScript programming, game logic implementation, and user interface design."
+        ),
+        'technologies': "JavaScript, HTML, CSS",
+        'skills': "JavaScript programming, game logic, user interface design"
+    }
 }
 
 st.set_page_config(page_title=PAGE_TITLE, page_icon=PAGE_ICON)
@@ -221,12 +246,22 @@ Collaborated with a team of diverse individuals to develop the prototype for the
 This experience strengthened my teamwork, problem-solving, and adaptability skills.
 """
 )
+
 st.write('#')
 st.write('---')
 st.subheader('Projects')
 
-st.write('The following projects were completed as part of my full-stack software development program at Code Institute. Each project adhered to specific guidelines and was designed to demonstrate particular skills, providing an opportunity to apply theoretical knowledge in practical scenarios.')
-for project, link in PROJECTS.items():
-    st.write(f"[{project}]({link})")
+# Introductory text about the projects
+st.write('The following projects were completed as part of my full-stack software development program at Code Institute. Each project adhered to specific guidelines and was designed to demonstrate specific skills, providing an opportunity to apply theoretical knowledge in practical scenarios.')
+
+# Iterate over the PROJECTS dictionary to display project details
+for project_name, project_info in PROJECTS.items():
+    st.write(f"**{project_name}**")
+    st.write(f"[Link to Project]({project_info['link']})")
+    st.write(f"Description: {project_info['description']}")
+    st.write(f"Technologies Used: {project_info['technologies']}")
+    st.write(f"Skills Demonstrated: {project_info['skills']}")
+
+st.write("---")
 
 
