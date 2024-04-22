@@ -157,14 +157,14 @@ with col2:
     st.write("- ✨ TensorFlow")
 
 st.subheader('Education')
-st.write(
-    """
-    - 💻 Full Stack Software Development (Predictive Analytics), Predictive
-    Analytics: Code Institute-> 03/2023 - 03/2024.
 
-    - 📐 Bachelor of Architecture: UAM Universidad Autónoma Metropolitana-> 01/2008 - 02/2011
-"""
-)
+st.write('💻', 'Full Stack Software Development (Specialisation on Predictive Analytics and AI) : Code Institute-> 03/2023 - 03/2024.')
+
+st.write('📐',' Bachelor of Architecture: UAM Universidad Autónoma Metropolitana-> 01/2008 - 02/2011')
+
+st.write('💾',' Course|University of California, Davis: Big Data, Artificial Intelligence, and Ethics -> 18.04 - 13.06.2024')
+
+
 # -- Languages --
 st.write('#')
 st.subheader("Languages")
@@ -180,15 +180,50 @@ st.write(
 st.write("---")
 
 # --- Work History ---
-
+st.subheader('Work Experience')
 st.write('🖌️','Tattoo Artist and Illustrator | Self Employed')
 st.write('07/2010 - Present')
+st.write(
+    """
+    *  Created custom tattoo designs for clients, handling all aspects of the business, including client consultations, scheduling, and social media promotion.
+    *  Developed brand identity, logo, and website for personal business.
+    *  Managed social media profiles, creating content and engaging with followers.
+    *  Built a strong reputation through word-of-mouth and social media marketing.
+"""
+)
+
+st.write('🧾','Community Organizer & Event Planner |Self Employed')
+st.write('Various Collectives, Berlin')
+st.write('2010 - Present')
+st.write(
+    '''
+    *  Co-founded and organized events with Dis/tanz, a collective raising funds for global social justice projects, raising up to 4,000 euros per event.
+    *  Managed digital and analog promotion for events, utilizing social media and traditional marketing techniques.
+    *  Designed promotional materials and coordinated event logistics.
+    *  Contributed to the creation of safe and inclusive spaces for queer and FLINTA* communities.
+
+    '''
+)
+
 
 # --- Projects and Acomplishments -- 
 st.write('#')
-st.subheader('Projects & Acompllishments')
+st.subheader('Acompllishments')
 st.write('---')
 
+st.write('🦄','Unicorns in Tech Hackathon [UIT](https://www.unicornsintech.com/uithack24/), Berlin: April 12-13, 2024')
+st.write(
+"""
+Attended a hackathon focused on technology and LGBTQIA+ communities.
+Contributed to a project aimed at improving mental health and well-being within the community by developing an insurance platform specifically designed for queer people.
+Collaborated with a team of diverse individuals to develop the prototype for the platform, a business plan, and a data collection and management strategy.
+This experience strengthened my teamwork, problem-solving, and adaptability skills.
+"""
+)
+st.write('#')
+st.subheader('Projects')
+st.write('---')
+st.write('The following projects were completed as part of my full-stack software development program at Code Institute. Each project adhered to specific guidelines and was designed to demonstrate particular skills, providing an opportunity to apply theoretical knowledge in practical scenarios.')
 for project, link in PROJECTS.items():
     st.write(f"[{project}]({link})")
 
