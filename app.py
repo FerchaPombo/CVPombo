@@ -37,6 +37,15 @@ PROJECTS = {
         'technologies': "Python, TensorFlow, Matplotlib, Seaborn, Kaggle, Jupyter Notebooks",
         'skills': "Machine learning, Python programming, data visualization, data analysis"
     },
+    '🌐 Findit! Berlin': {
+    'link': 'https://finditberlin-943ba7305bd2.herokuapp.com/',
+    'description': (
+        "For my PP4 project, I developed a fully functional photoblog using Django and Bootstrap, incorporating complete "
+        "CRUD functionalities and following Agile methodologies."
+        ),
+        'technologies': "Python",
+        'skills': "Django, Bootstrap, Python, HTML, CSS, CRUD, Agile, Full-Stack Development, Security, Authentication."
+    },
     '🇲🇽 MexicoisMagic': {
         'link': 'https://magicmexico-92655f369bba.herokuapp.com/',
         'description': (
