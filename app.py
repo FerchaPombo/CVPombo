@@ -270,21 +270,3 @@ We designed and conceptualized an App for the community and therapist to find ea
 """
 )
 
-st.write('#')
-st.write('---')
-st.subheader('Projects')
-
-# Introductory text about the projects
-st.write('The following projects were completed as part of my full-stack software development program at Code Institute. Each project adhered to specific guidelines and was designed to demonstrate specific skills, providing an opportunity to apply theoretical knowledge in practical scenarios.')
-
-# Iterate over the PROJECTS dictionary to display project details
-for project_name, project_info in PROJECTS.items():
-    st.write(f"**{project_name}**")
-    st.write(f"[Link to Project]({project_info['link']})")
-    st.write(f"Description: {project_info['description']}")
-    st.write(f"Technologies Used: {project_info['technologies']}")
-    st.write(f"Skills Demonstrated: {project_info['skills']}")
-
-st.write("---")
-
-
