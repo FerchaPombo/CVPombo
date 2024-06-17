@@ -7,7 +7,7 @@ from PIL import Image
 
 current_dir = Path(__file__).parent if '__file__' in locals() else Path.cwd()
 css_file = current_dir/ 'styles' / 'main.css'
-resume_file = current_dir/ 'assets/' / 'MariaFernandaBecerrilPomboResume.pdf'
+resume_file = current_dir/ 'assets/' / 'CVPombo.pdf'
 profile_pic = current_dir/ 'assets' / 'profile-pic.png'
 
 
@@ -17,20 +17,20 @@ PAGE_TITLE = 'Digital CV | Fernanda Pombo'
 PAGE_ICON = '💻'
 NAME = 'Fernanda Pombo'
 DESCRIPTION = """
-Junior Graduate on Predictive Analitics and Machine Learning.
+JUNIOR FULL STACK SOFTWARE DEVELOPER
+|Predictive Analytics and Machine Learning|
 """
 EMAIL = 'ferchapombo@gmail.com'
 LOCATION = 'Berlin,Germany'
 SOCIAL_MEDIA = {
-    'Linkedin': 'www.linkedin.com/in/fpombo',
+    'Linkedin': 'https://www.linkedin.com/in/fpombo/',
     'GitHub': 'https://github.com/FerchaPombo',
-    'Instagram': 'www.instagram.com/ferchapombo',
 }
 PROJECTS = {
     '🌱 Mildew Detection in Cherry Leaves': {
         'link': 'https://powdery-mildew-detector-fp-c8dd417a4db2.herokuapp.com/',
         'description': (
-            "Developed a machine learning model to predict if a cherry tree is infected with Powdery Mildew by analyzing an image of a leaf. "
+            "Utilized a machine learning model to predict if a cherry tree is infected with Powdery Mildew by analyzing an image of a leaf. "
             "The model uses binary classification to determine the presence or absence of fungal infection, providing insights that can inform "
             "business decisions in agriculture."
         ),
@@ -40,11 +40,11 @@ PROJECTS = {
     '🌐 Findit! Berlin': {
     'link': 'https://finditberlin-943ba7305bd2.herokuapp.com/',
     'description': (
-        "For my PP4 project, I developed a fully functional photoblog using Django and Bootstrap, incorporating complete "
+        "I developed a fully functional photoblog using Django and Bootstrap, incorporating complete "
         "CRUD functionalities and following Agile methodologies."
         ),
         'technologies': "Python",
-        'skills': "Django, Bootstrap, Python, HTML, CSS, CRUD, Agile, Full-Stack Development, Security, Authentication."
+        'skills': "Django, Bootstrap, Python, HTML, CSS, CRUD, Agile, Full-Stack Development, Security, Authentication, UX|UI"
     },
     '🇲🇽 MexicoisMagic': {
         'link': 'https://magicmexico-92655f369bba.herokuapp.com/',
@@ -53,7 +53,7 @@ PROJECTS = {
             "user interface design, and data management."
         ),
         'technologies': "Python",
-        'skills': "Python programming, UI design, data management"
+        'skills': "Python programming, Data Management"
     },
     '🤜 Paper, Rock, Scissors': {
         'link': 'https://github.com/FerchaPombo/paper-rock-scissors',
@@ -92,6 +92,7 @@ with col2:
         mime='application/octet-stream' # type of file we want to download , could be /pdf. in this case its unknown
     )
     st.write('✉️', EMAIL)
+    st.write('📍',LOCATION)
 # --- Social Links -- 
 st.write('#')
 cols = st.columns(len(SOCIAL_MEDIA))
@@ -105,19 +106,19 @@ st.subheader('About me')
 st.write(
     """
 
-    I am writing to express my keen interest in opportunities within the realm of predictive analytics, machine learning, and artificial intelligence. Having recently completed a comprehensive program in full-stack software development with a specialization in predictive analytics and AI from Code Institute, coupled with my extensive background as a tattoo artist and freelancer, I am eager to bring a unique blend of creativity, adaptability, and technical skills to a new team.
+     I've recently completed a full-stack software development program with a specialization in predictive analytics and AI at Code Institute. This formal education, along with my extensive experience as an artist and freelancer, allows me to bring a unique mix of creativity and technical skills to any project.
+
+
+My journey started in the art world, where I developed a deep appreciation for artistic expression and client satisfaction. This inspired me to learn more about technology and led me to gain proficiency in various programming languages, including front and backend development. Although I lack traditional work experience in the tech industry, my time traveling and managing my own brand has given me invaluable skills in communication, adaptability, and problem-solving.
+
+
+I'm particularly drawn to pushing the boundaries of innovation and using data-driven insights to create meaningful impacts. I excel at collaborating with diverse teams, quickly learning new concepts, and thriving in dynamic settings. Thank you for taking the time to learn more about me. I'm excited about the opportunity to discuss how my unique background and skills can contribute to innovative projects.
     
-    While my journey began in the creative world of tattooing, where I cultivated a deep appreciation for artistic expression and client satisfaction, my thirst for knowledge and passion for innovation led me to pursue formal education in the field of technology. Throughout my studies, I have developed proficiency in various programming languages, including front and backend development, and gained a solid understanding of predictive analytics and AI principles.
+Find my resume and the skillset I acquired for your review below, which includes a link to some of my projects.
     
-    Despite not having traditional work experience in this domain, my years of traveling the world and managing my own business have endowed me with invaluable skills in communication, adaptability, and problem-solving—qualities that I believe are essential for success in any professional environment. I am adept at collaborating with diverse teams, quickly learning new concepts, and thriving in dynamic settings.
+Warm regards,
     
-    I am particularly drawn to my commitment to push the boundaries of innovation and leveraging data-driven insights to drive meaningful impact. 
-    
-    Find my resume and the skillset I acquired for your review below, which includes a link to some of my projects. I am excited about the opportunity to discuss how my unique background and skill set align with the needs of any team. Thank you for considering my application. I look forward to the possibility of contributing to your company's success.
-    
-    Warm regards,
-    
-    Fernanda Pombo
+Fernanda Pombo
 """
 )
 # -- Experience & Qualifications --
@@ -133,15 +134,13 @@ with col1:
     st.write("- ✨ Ability to Work Under Pressure")
     st.write("- ✨ Detail Oriented")
     st.write("- ✨ Multitasking Ability")
-    st.write("- ✨ Creative Problem Solving")
 
 # Content for column 2
 with col2:
-    st.write("- ✨ Communication Customer Service")
-    st.write("- ✨ Interpersonal Skills Teamwork")
-    st.write("- ✨ Management Skills Problem-Solving")
-    st.write("- ✨ Time Management")
-    st.write("- ✨ Problem-Solving")
+    st.write("- ✨ Communication- Customer Service")
+    st.write("- ✨ Teamwork")
+    st.write("- ✨ Management Skills-Problem Solving")
+    st.write("- ✨ Empathy ")
 
 
 # --- Technical Skills --
@@ -155,9 +154,9 @@ col1, col2, = st.columns(2)
 
 with col1:
     st.write('FrontEnd Development:')
-    st.write("- ✨ HTML Essentials")
-    st.write("- ✨ CSS Essentials")
-    st.write("- ✨ User Experience Design")
+    st.write("- ✨ HTML")
+    st.write("- ✨ CSS")
+    st.write("- ✨ UX|UI")
     st.write("- ✨ Bootstrap")
     st.write("- ✨ jQuery")
 
@@ -188,6 +187,22 @@ with col2:
     st.write("- ✨ Plotly")
     st.write("- ✨ Scikit-learn")
     st.write("- ✨ TensorFlow")
+
+st.write('#')
+st.write('---')
+st.subheader('Projects')
+
+# Introductory text about the projects
+st.write('The following projects were completed as part of my full-stack software development program at Code Institute. Each project adhered to specific guidelines and was designed to demonstrate specific skills, providing an opportunity to apply theoretical knowledge in practical scenarios.')
+
+# Iterate over the PROJECTS dictionary to display project details
+for project_name, project_info in PROJECTS.items():
+    st.write(f"**{project_name}**")
+    st.write(f"[Link to Project]({project_info['link']})")
+    st.write(f"{project_info['description']}")
+    st.write(f"Technologies Used: {project_info['technologies']}")
+    st.write(f"Skills Demonstrated: {project_info['skills']}")
+
 
 st.write('---')
 st.subheader('Education')
@@ -220,10 +235,10 @@ st.write('🖌️','Tattoo Artist and Illustrator | Self Employed')
 st.write('07/2010 - Present')
 st.write(
     """
-    *  Created custom tattoo designs for clients, handling all aspects of the business, including client consultations, scheduling, and social media promotion.
-    *  Developed brand identity, logo, and website for personal business.
-    *  Managed social media profiles, creating content and engaging with followers.
-    *  Built a strong reputation through word-of-mouth and social media marketing.
+    *  -Brand development and identity design.
+    *  -Business operations and client management.
+    *  -Website development and Management.
+    *  -Social Media marketing and content creation. 
 """
 )
 
@@ -232,10 +247,10 @@ st.write('Various Collectives, Berlin')
 st.write('2010 - Present')
 st.write(
     '''
-    *  Co-founded and organized events with Dis/tanz, a collective raising funds for global social justice projects, raising up to 4,000 euros per event.
-    *  Managed digital and analog promotion for events, utilizing social media and traditional marketing techniques.
-    *  Designed promotional materials and coordinated event logistics.
-    *  Contributed to the creation of safe and inclusive spaces for queer and FLINTA* communities.
+    *  -Co-founded and organized events with Dis/tanz, a collective raising funds for global social justice projects, raising up to 4,000 euros per event.
+    *  -Managed digital and analog promotion for events.
+    *  -Designed promotional materials and coordinated event logistics.
+    *  -Contributed to the creation of safe and inclusive spaces for queer and FLINTA* communities.
 
     '''
 )
@@ -249,10 +264,9 @@ st.subheader('Acompllishments')
 st.write('🦄','Unicorns in Tech Hackathon [UIT](https://www.unicornsintech.com/uithack24/), Berlin: April 12-13, 2024')
 st.write(
 """
-Attended a hackathon focused on technology and LGBTQIA+ communities.
-Contributed to a project aimed at improving mental health and well-being within the community by developing an insurance platform specifically designed for queer people.
-Collaborated with a team of diverse individuals to develop the prototype for the platform, a business plan, and a data collection and management strategy.
-This experience strengthened my teamwork, problem-solving, and adaptability skills.
+Unicorns in Tech Hackathon - Getting Connected - Mental Health Issue
+We designed and conceptualized an App for the community and therapist to find each other more easily. 
+* Skills Demonstrated: Teamwork, Problem-Solving, Adaptability
 """
 )
 
