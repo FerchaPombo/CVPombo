@@ -259,7 +259,7 @@ st.write(
 # --- Projects and Acomplishments -- 
 st.write('#')
 st.write('---')
-st.subheader('Acompllishments')
+st.subheader('Acomplishments')
 
 st.write('🦄','Unicorns in Tech Hackathon [UIT](https://www.unicornsintech.com/uithack24/), Berlin: April 12-13, 2024')
 st.write(
