@@ -7,7 +7,7 @@ from PIL import Image
 
 current_dir = Path(__file__).parent if '__file__' in locals() else Path.cwd()
 css_file = current_dir/ 'styles' / 'main.css'
-resume_file = current_dir/ 'assets/' / 'CVPombo.pdf'
+resume_file = current_dir/ 'assets/' / 'CVPomboPhotonew.pdf'
 profile_pic = current_dir/ 'assets' / 'profile-pic.png'
 
 
@@ -106,18 +106,10 @@ st.subheader('About me')
 st.write(
     """
 
-     I've recently completed a full-stack software development program with a specialization in predictive analytics and AI at Code Institute. This formal education, along with my extensive experience as an artist and freelancer, allows me to bring a unique mix of creativity and technical skills to any project.
+     I bring a unique blend of creativity, technical expertise, and a global perspective, driven by a passion for using data to create impactful solutions. With a solid foundation in Python, Java, HTML, CSS, and JavaScript, I have hands-on experience in tools such as NumPy, Pandas, Matplotlib, Seaborn, and TensorFlow, allowing me to navigate both front and back-end development. My exposure to diverse cultures and work environments has sharpened my adaptability and problem-solving abilities, making me an effective collaborator in dynamic, fast-paced settings.
 
+Starting as an artist and freelancer, I developed a strong appreciation for client satisfaction and the importance of continuous learning. This mindset now drives my enthusiasm for building data-driven projects that provide meaningful results. I thrive in environments where I can contribute creatively and technically, and I’m highly motivated to grow my skills in real-world applications, leveraging both my technical foundation and a passion for innovative problem-solving.
 
-My journey started in the art world, where I developed a deep appreciation for artistic expression and client satisfaction. This inspired me to learn more about technology and led me to gain proficiency in various programming languages, including front and backend development. Although I lack traditional work experience in the tech industry, my time traveling and managing my own brand has given me invaluable skills in communication, adaptability, and problem-solving.
-
-
-I'm particularly drawn to pushing the boundaries of innovation and using data-driven insights to create meaningful impacts. I excel at collaborating with diverse teams, quickly learning new concepts, and thriving in dynamic settings. Thank you for taking the time to learn more about me. I'm excited about the opportunity to discuss how my unique background and skills can contribute to innovative projects.
-    
-Find my resume and the skillset I acquired for your review below, which includes a link to some of my projects.
-    
-Warm regards,
-    
 Fernanda Pombo
 """
 )
@@ -180,6 +172,7 @@ with col1:
     st.write("- ✨ NumPy")
     st.write("- ✨ Pandas")
     st.write("- ✨ Matplotlib")
+    st.write("- ✨ Azure")
 
 with col2:
     st.write('#')
@@ -187,6 +180,7 @@ with col2:
     st.write("- ✨ Plotly")
     st.write("- ✨ Scikit-learn")
     st.write("- ✨ TensorFlow")
+    st.write("- ✨ NextJS")
 
 st.write('#')
 st.write('---')
@@ -243,7 +237,7 @@ st.write(
 )
 
 st.write('🧾','Community Organizer & Event Planner |Self Employed')
-st.write('Various Collectives, Berlin')
+st.write('Distanz,Culoka, Soli Tattoo Events, Berlin')
 st.write('2010 - Present')
 st.write(
     '''
@@ -269,4 +263,8 @@ We designed and conceptualized an App for the community and therapist to find ea
 * Skills Demonstrated: Teamwork, Problem-Solving, Adaptability
 """
 )
+st.write('📓', 'Big Data, Artificial Intelligence, and Ethics , University of California. Coursera - 18.04.2024-18.06.2024 , Online: April 12-13, 2024 [Coursera](https://www.coursera.org/learn/big-data-ai-ethics)')
 
+st.write('🔉','Attended Digital Futures - Advancing gender and ethnic equality and diversity [Digital futures](https://www.eventbrite.co.uk/e/digital-futures-advancing-gender-and-ethnic-equality-and-diversity-tickets-913957480427)')
+
+st.write('🖥️', 'Attended We Are Developers -Queer in Tech conferences [Queer in Tech](https://www.wearedevelopers.com/en/live-events/10/queer-tech-day-june-2024)')
